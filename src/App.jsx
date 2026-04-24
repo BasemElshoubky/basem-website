@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 function App() {
   const [active, setActive] = useState("home");
@@ -19,6 +20,7 @@ function App() {
         {active === "resume" && <Resume />}
         {active === "skills" && <Skills />}
         {active === "contact" && <Contact />}
+        {active === "projects" && <Projects />}
       </div>
 
     </div>

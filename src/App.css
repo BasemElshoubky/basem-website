@@ -527,3 +527,97 @@ body {
   transition: all 0.3s ease;
 }
 
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+/* Image */
+.project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Content */
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+
+.project-content h3 {
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.tech {
+  display: block;
+  font-size: 13px;
+  color: #3b82f6;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+/* Container */
+.project-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+}
+
+/* All buttons */
+.project-buttons a {
+  flex: 1; 
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Live button */
+.project-buttons a:first-child {
+  background: #3b82f6;
+  color: white;
+}
+
+/* GitHub button */
+.project-buttons a:last-child {
+  background: #111;
+  color: white;
+}
+
+/* Hover */
+.project-buttons a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+.project-buttons a:first-child:hover {
+  box-shadow: 0 10px 25px rgba(59,130,246,0.4);
+}
+
+.project-buttons a:last-child:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}

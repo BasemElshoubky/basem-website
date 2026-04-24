@@ -1,3 +1,5 @@
+UML Architecture Diagram (Component-Based)                   
+                   
                     ┌────────────────────┐
                     │      main.jsx      │
                     │ (App Entry Point)  │
@@ -30,3 +32,20 @@
 │   └───────────┘   └───────────┘   └───────────┘   └────────┘│
 │                                                            │
 └────────────────────────────────────────────────────────────┘
+
+----------------------------------------------------------------------------------------------------
+
+UML (Class-Level)
+
+App
+ ├── state: active
+ ├── setActive()
+ │
+ ├── Sidebar
+ │     └── triggers setActive()
+ │
+ └── Main
+       ├── Home
+       ├── Resume
+       ├── Skills
+       └── Contact

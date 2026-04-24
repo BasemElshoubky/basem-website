@@ -1,0 +1,114 @@
+🎤 Slide 1 — Introduction
+
+🗣️ تقول:
+
+Hello everyone,
+Today I will present my personal CV website built using React.
+
+I took inspiration from LinkedIn’s design, especially the layout and color scheme, because it reflects a clean and professional style. Then I built my own version using React.”
+
+🎤 Slide 2 — Overview
+
+🗣️ تقول:
+
+This project is a personal portfolio website that represents my CV in a modern and interactive way.
+It is designed as a Single Page Application, meaning all content is loaded dynamically without reloading the page.
+
+🎤 Slide 3 — Technologies
+
+🗣️ تقول:
+
+In this project, I used React.js as the main framework.
+I also used JavaScript for logic, CSS for styling, React Icons for UI elements, and Framer Motion for animations.
+
+🎤 Slide 4 — Architecture
+
+🗣️ تقول:
+
+The application follows a component-based architecture.
+The entry point is main.jsx, which renders the App component.
+App.jsx acts as the main controller of the application.
+
+🎤 Slide 5 — Navigation Flow
+
+🗣️ تقول:
+
+Navigation is handled using React state.
+When the user clicks on a menu item in the Sidebar, the state is updated using useState.
+Based on this state, the correct page is rendered dynamically.
+
+🎤 Slide 6 — Components
+
+🗣️ تقول:
+
+The application is divided into reusable components.
+For example, Sidebar handles navigation,
+Home displays the profile,
+Resume shows experience,
+Skills displays technical abilities,
+and Contact allows communication.
+
+🎤 Slide 7 — Resume
+
+🗣️ تقول:
+
+The Resume section is implemented using a timeline layout.
+This helps present experience in a structured and visually clear way.
+I also added animations to improve user experience.
+
+🎤 Slide 8 — Skills
+
+🗣️ تقول:
+
+The Skills section uses a card-based design.
+Each skill is rendered dynamically using JavaScript arrays and the map function.
+Progress bars are used to visually represent skill levels.
+
+🎤 Slide 9 — Contact
+
+🗣️ تقول:
+
+The Contact section includes both static information and an interactive form.
+The form uses controlled inputs managed by React state.
+
+🎤 Slide 10 — Key Concepts
+
+🗣️ تقول:
+
+This project demonstrates several important React concepts,
+including component-based design, state management using useState,
+conditional rendering, and reusable UI components.
+
+🎤 Slide 11 — Live Demo
+
+🗣️ تقول:
+
+Now I will show a live demonstration of the project.
+
+👉 هنا افتح الموقع وامشِ فيه:
+
+Home
+Resume
+Skills
+Contact
+🎤 Slide 12 — Challenges
+
+🗣️ تقول:
+
+One of the main challenges was structuring the application correctly.
+Understanding how state controls the UI was also an important learning step.
+
+🎤 Slide 13 — Conclusion
+
+🗣️ تقول:
+
+In conclusion, this project helped me understand how to build a real-world frontend application using React.
+It also improved my skills in UI design and component architecture.
+
+🎤 Slide 14 — Q&A
+
+🗣️ تقول:
+
+Thank you for listening.
+I’m happy to answer any questions.
+
